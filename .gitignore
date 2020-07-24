@@ -1,0 +1,24 @@
+*~
+*#*
+.DS*
+*.cm
+*.class
+*.pyc
+*.pyd
+.vscode/
+.idea/
+.venv/
+build/
+doc/_build/
+dist/
+tools/settings.py
+pymongo.egg-info/
+*.so
+*.egg
+*.egg-info
+.tox
+# Coverage
+coverage.xml
+.coverage
+# Tests
+.pytest_cache/
