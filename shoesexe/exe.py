@@ -1,4 +1,3 @@
-import Shoes.exe to (accurata.py)
 import subprocess
 import sys
 import os
@@ -13,9 +12,7 @@ no2 = "n"
 userinput2 = ""
 
 
-
-
-while userinput1 != y and(userinput2 != n):
+while userinput1.lower() != 'y' and userinput2.lower() != 'n':
     if input1_counter < input1_limiter:
         userinput1 = input("reinstall Shoes.exe? Y/N: ")
         input1_counter += 1
